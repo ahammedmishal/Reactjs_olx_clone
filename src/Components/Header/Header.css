@@ -7,14 +7,16 @@
 }
 
 .headerChildDiv {
-  width: 100%;
+  padding-left:16%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .placeSearch {
-  width: 16em;
+  margin-left: 1%;
+  width: 272px;
   height: 48px;
   display: flex;
   align-items: center;
@@ -25,17 +27,20 @@
 }
 
 .placeSearch ::selection {
+  
   border-color: #23e5db;
   outline-color: #23e5db;
 }
 
 .placeSearch input {
+  
   border-color: transparent;
   outline-color: transparent;
 }
 
 .productSearch {
-  width: 35em;
+  margin-left: 1%;
+  width: 36em;
   height: 48px;
   border: 2px solid #002f34;
   border-radius: 4px;
@@ -79,6 +84,7 @@
 }
 
 .language {
+  margin-left: 1%;
   height: 48px;
   display: flex;
   align-items: center;
@@ -106,14 +112,19 @@
   margin-right: 5px;
 }
 
-.loginPage hr {
-  margin: 0;
-  background-color: black;
-  height: 2px;
-}
+/* .loginPage{
+  display: none;
+} */
 
 .loginPage a{
   text-decoration: none;
+}
+
+.loginPage hr {
+  
+  margin: 0;
+  background-color: black;
+  height: 2px;
 }
 
 .sellMenu {
@@ -154,6 +165,18 @@
 .sellMenu .sellMenuContent span {
   margin-left: 5px;
 }
+
+ /* .hover-line{
+
+  text-decoration: none;
+
+}
+.hover-line:hover{
+
+  text-decoration: none;
+
+}  */
+
 
 @media only screen and (max-width: 700px) {
   .placeSearch,

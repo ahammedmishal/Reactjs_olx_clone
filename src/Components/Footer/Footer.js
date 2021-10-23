@@ -13,7 +13,7 @@ function Footer() {
           <div className="list">
             <ul>
               <li>kolkata</li>
-              <li>Mumbai</li>
+              <li>Mumbai</li>8
               <li>Chennai</li>
               <li>Pune</li>
             </ul>
